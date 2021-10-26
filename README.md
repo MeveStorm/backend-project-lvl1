@@ -5,3 +5,6 @@
 
 ### Maintainability Badge
 [![Maintainability](https://api.codeclimate.com/v1/badges/217e3ca5cc8d164a3222/maintainability)](https://codeclimate.com/github/SunMeve/backend-project-lvl1/maintainability)
+
+### Пример работы игры на asciinema
+https://asciinema.org/a/cI1XBQF5XfQ3kqokBULoKpSEh
