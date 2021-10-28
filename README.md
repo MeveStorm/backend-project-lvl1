@@ -8,7 +8,10 @@
 
 ## Пример работы игры на asciinema
 ### brain-even
-https://asciinema.org/a/cI1XBQF5XfQ3kqokBULoKpSEh
+https://asciinema.org/a/8PCBKHDiC2N7nMol2U7XvKOxS
 
 ### brain-calc
 https://asciinema.org/a/X30uaunKHEhYrnnYZH2KGHBPP
+
+### brain-gcd
+https://asciinema.org/a/7SH5Yat2o0zjULX7ufsdSSGb2
