@@ -1,6 +1,6 @@
-const getDescription = () => 'What is the result of the expression?';
+import { random, randomTwoNumbers } from '../src/random.js';
 
-const random = (maxNumRandom) => Math.floor(Math.random() * maxNumRandom);
+const getDescription = () => 'What is the result of the expression?';
 
 // Рандомный выбор знака
 const getSign = () => {
@@ -21,8 +21,7 @@ const getAnswer = (firstValue, secondValue, sign) => {
 // Создание пары [Вопрос, Ответ]
 const getQuestion = () => {
   const MAX_VALUE = 100;
-  const firstValue = random(MAX_VALUE);
-  const secondValue = random(MAX_VALUE);
+  const [firstValue, secondValue] = randomTwoNumbers(MAX_VALUE);
   const sign = getSign();
   const question = `${firstValue} ${sign} ${secondValue}`;
   const trueAnswer = getAnswer(firstValue, secondValue, sign).toString();

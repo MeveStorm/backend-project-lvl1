@@ -22,7 +22,6 @@ const checkAnswer = (answer, trueAnswer) => answer.toLowerCase() === trueAnswer.
 
 const game = (gameDescription, generateQuestion) => {
   const userName = showGreetingAndGetUsername();
-
   showGameDescription(gameDescription);
 
   let step = 0;
